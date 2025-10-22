@@ -17,6 +17,11 @@ services:
     networks:
       - Practice
 
+  jupyter:
+    image: redis/redisinsight:latest
+    networks:
+      - Practice
+
 networks:
   Practice:
     name: redis_newtwork
