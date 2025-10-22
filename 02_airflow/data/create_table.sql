@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS dnd (name VARCHAR(255), level VARCHAR(255), race VARCHAR(255), class VARCHAR(255), spells VARCHAR(255), languages VARCHAR(255), profficiencies VARCHAR(255), attributes VARCHAR(255));
